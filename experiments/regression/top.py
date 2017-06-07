@@ -35,7 +35,7 @@ graphs = {
 
 print('\n>> opening no-data gold sets ...')
 ngram_no_data = { 
-      'ccb': no_data_pairs(os.path.join( split_gold['no-data']
+      'turk': no_data_pairs(os.path.join( split_gold['no-data']
                          , 'baseline-ngram-ccb-no-data.pkl')),
 
       'moh': no_data_pairs(os.path.join( split_gold['no-data']
@@ -47,7 +47,7 @@ ngram_no_data = {
 
 ppdb_no_data = { 
 
-      'ccb': no_data_pairs(os.path.join( split_gold['no-data']
+      'turk': no_data_pairs(os.path.join( split_gold['no-data']
                          , 'baseline-ppdb-ccb-no-data.pkl')) ,
 
       'moh': no_data_pairs(os.path.join( split_gold['no-data']
@@ -60,7 +60,7 @@ ppdb_no_data = {
 
 both_no_data = { 
 
-      'ccb': no_data_pairs(os.path.join( split_gold['no-data']
+      'turk': no_data_pairs(os.path.join( split_gold['no-data']
                          , 'baseline-ppdb-ngram-ccb-no-data.pkl')),
 
       'moh': no_data_pairs(os.path.join( split_gold['no-data']

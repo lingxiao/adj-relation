@@ -72,9 +72,9 @@ exec_train( dir_name = dir_name
           , op       = op
           , w2idx    = w2idx
 
-          , train    = no_data_gold['bcs']
-          , valid    = no_data_gold['ccb']
-          , test     = no_data_gold['moh']
+          , train    = no_data_gold['bcs' ]
+          , valid    = no_data_gold['turk']
+          , test     = no_data_gold['moh' ]
 
           , out_root = work_dir['models']
           , save     = False
