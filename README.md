@@ -26,7 +26,7 @@ export PYTHONPATH=/path/to/adj-relation
 python experiments/baseline/demos/uniform.py
 ```
 
-You may find the results at experiments/baseline/results
+You may find the results at `adj-relation/experiments/baseline/results`
 
 * Run non-random baseline for each data set:
 
@@ -36,7 +36,7 @@ python experiments/baseline/demos/ngram_graph.py
 python experiments/baseline/demos/ppdb_ngram_graph.py
 ```
 
-You may find the results at experiments/baseline/results
+You may find the results at `adj-relation/experiments/baseline/results`
 
 
 * Run logistic regression for each data set:
@@ -45,7 +45,7 @@ You may find the results at experiments/baseline/results
 python experiments/regression/demos/run_model_redo.py
 ```
 
-You may find the results at experiments/regression/results
+You may find the results at `adj-relation/experiments/regression/results`
 
 
 * Run my replication of Mohit's MILP method:
@@ -54,7 +54,7 @@ You may find the results at experiments/regression/results
 python experiments/regression/demos/run_milp.py
 ```
 
-You may find the results at experiments/milp/results
+You may find the results at `adj-relation/experiments/milp/results`
 
 
 Warning: re-running these experiments takes a long time.
