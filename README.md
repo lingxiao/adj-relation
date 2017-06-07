@@ -59,10 +59,14 @@ You may find the results at `adj-relation/experiments/milp/results`
 
 Warning: re-running these experiments takes a long time.
 
-
 ## Contact.
 
 lingxiao . at . seas . upenn . edu
+
+## Note
+
+This directory contains the scripts to re-run all experiments only. For scripts that collect the N-gram data, see `https://github.com/lingxiao/learn-adj-relation`. Warning: sparse documentation.
+
 
 
 
