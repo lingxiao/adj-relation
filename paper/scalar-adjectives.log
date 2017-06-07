@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  7 JUN 2017 17:47
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  7 JUN 2017 17:51
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -394,6 +394,21 @@ LaTeX Warning: Label `font-table' multiply defined.
 
 LaTeX Warning: Label `font-table' multiply defined.
 
+
+LaTeX Warning: Label `font-table' multiply defined.
+
+
+LaTeX Warning: Label `font-table' multiply defined.
+
+
+LaTeX Warning: Label `font-table' multiply defined.
+
+
+LaTeX Warning: Label `font-table' multiply defined.
+
+
+LaTeX Warning: Label `font-table' multiply defined.
+
 )
 \openout1 = `scalar-adjectives.aux'.
 
@@ -639,7 +654,7 @@ LaTeX Warning: There were multiply-defined labels.
 Here is how much of TeX's memory you used:
  11060 strings out of 493014
  203223 string characters out of 6133351
- 249877 words of memory out of 5000000
+ 249884 words of memory out of 5000000
  14450 multiletter control sequences out of 15000+600000
  26656 words of font info for 76 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -663,7 +678,7 @@ live/2016/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local
 /texlive/2016/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2
 016/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2016/texmf-
 dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on scalar-adjectives.pdf (57 pages, 294968 bytes).
+Output written on scalar-adjectives.pdf (57 pages, 294935 bytes).
 PDF statistics:
  263 PDF objects out of 1000 (max. 8388607)
  184 compressed objects within 2 object streams
