@@ -7,7 +7,7 @@
 
 2. Each directory [DIR] has format:
 	* top.py :	initialize the application and loads all dependencies and assets
-	* demo/run_[NAME].py :	run the experiment
+	* [DIR]/demo/run_[NAME].py :	run the experiment
 
 
 
