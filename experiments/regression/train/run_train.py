@@ -16,7 +16,7 @@ from experiments.regression.train import *
 
 ############################################################
 '''
-	Training config
+    Training config
 '''
 model = 'logistic-regression'
 
@@ -39,18 +39,18 @@ phi      = to_x(nu,op)
 
 ############################################################
 '''
-	train and validation data 
+    train and validation data 
 '''
 if data_set == 'ppdb-ngram':
-	no_data_gold = ngram_no_data
+    no_data_gold = ngram_no_data
 elif data_set == 'ppdb':
-	no_data_gold = ppdb_no_data
+    no_data_gold = ppdb_no_data
 elif data_set == 'ngram':
-	no_data_gold = both_no_data
+    no_data_gold = both_no_data
 
 ###########################################################
 '''
-	Train 
+    Train 
 '''
 dir_name = model        + '|'                                 \
          +  data_set    + '|'                                 \
@@ -63,20 +63,20 @@ dir_name = model        + '|'                                 \
 print('\n\t>> Training ' + dir_name)
 exec_train( dir_name = dir_name
 
-		  , model    = model
+          , model    = model
 
-	      , penalty  = penalty
-	      , C        = C
+          , penalty  = penalty
+          , C        = C
 
-	      , rho      = nu
-	      , op       = op
-	      , w2idx    = w2idx
+          , rho      = nu
+          , op       = op
+          , w2idx    = w2idx
 
-	      , train    = no_data_gold['bcs']
-	      , valid    = no_data_gold['ccb']
-	      , test     = no_data_gold['moh']
+          , train    = no_data_gold['bcs']
+          , valid    = no_data_gold['ccb']
+          , test     = no_data_gold['moh']
 
-	      , out_root = work_dir['models']
-	      , save     = False
-	      )
+          , out_root = work_dir['models']
+          , save     = False
+          )
 
