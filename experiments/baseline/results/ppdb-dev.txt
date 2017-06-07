@@ -1,0 +1,54 @@
+ppdb-dev.txt
+2017-06-06 16:03:51.304542
+------------------------------------------------
+average pairwise : 67.0%
+average tau:  0.33
+average |tau|:0.67
+------------------------------------------------
+=== tau:
+-0.333333333333
+
+=== pairwise accuracy:
+0.333333333333
+
+=== gold: 
+['known']
+['famous']
+['legendary']
+
+=== algo: 
+['legendary']
+['known']
+['famous']
+
+prob*:	0.1875
+link-probs:
+	('legendary', 'known', 0.5)
+	('legendary', 'famous', 0.5)
+	('known', 'famous', 0.75)
+
+------------------------------------------------
+=== tau:
+1.0
+
+=== pairwise accuracy:
+1.0
+
+=== gold: 
+['good']
+['great']
+['excellent']
+
+=== algo: 
+['good']
+['great']
+['excellent']
+
+prob*:	0.352941176471
+link-probs:
+	('good', 'great', 0.8)
+	('good', 'excellent', 0.8823529411764706)
+	('great', 'excellent', 0.5)
+
+------------------------------------------------
+=== END

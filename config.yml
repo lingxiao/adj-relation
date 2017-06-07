@@ -1,0 +1,5 @@
+# path to application data
+data:
+    local:  /Users/lingxiao/Documents/research/code/adj-relation-data
+    grid:   /nlp/data/xiao/adj-relation-data
+    deploy: 

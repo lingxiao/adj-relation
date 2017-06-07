@@ -1,0 +1,44 @@
+dev.txt
+2017-06-06 13:20:16.870386
+------------------------------------------------
+average pairwise : 67.0%
+average tau:  0.33
+average |tau|:0.67
+------------------------------------------------
+=== tau:
+1.0
+
+=== pairwise accuracy:
+1.0
+
+=== gold: 
+['known']
+['famous']
+['legendary']
+
+=== algo: 
+['known']
+['famous']
+['legendary']
+
+('legendary', 'known'):	0.0('known', 'famous'):	1.0('legendary', 'famous'):	-9.71737210967('famous', 'known'):	-1.0('famous', 'legendary'):	9.71737210967('known', 'legendary'):	0.0
+------------------------------------------------
+=== tau:
+-0.333333333333
+
+=== pairwise accuracy:
+0.333333333333
+
+=== gold: 
+['good']
+['great']
+['excellent']
+
+=== algo: 
+['excellent']
+['good']
+['great']
+
+('good', 'great'):	80.7775222399('good', 'excellent'):	1037.52274844('excellent', 'great'):	0.0('great', 'excellent'):	1.0('excellent', 'good'):	0.0('great', 'good'):	0.0
+------------------------------------------------
+=== END
