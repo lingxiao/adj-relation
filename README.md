@@ -28,7 +28,7 @@ python experiments/baseline/demos/uniform.py
 
 You may find the results at experiments/baseline/results
 
-* Run naive non-random baseline for each data set:
+* Run non-random baseline for each data set:
 
 ```python
 python experiments/baseline/demos/ppdb_graph.py
