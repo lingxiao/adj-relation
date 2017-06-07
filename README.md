@@ -65,7 +65,11 @@ lingxiao . at . seas . upenn . edu
 
 ## Note
 
-This directory contains the scripts to re-run all experiments only. For scripts that collect the N-gram data, see `https://github.com/lingxiao/learn-adj-relation`. Warning: sparse documentation.
+1. Read methods.pdf for details of how the baseline and regression models are set up.
+
+2. This directory contains the scripts to re-run all experiments only. For scripts that collect the N-gram data, see 
+```https://github.com/lingxiao/learn-adj-relation`. Warning: sparse documentation
+```
 
 
 
