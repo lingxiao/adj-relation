@@ -30,7 +30,7 @@ You may find the results at `adj-relation/experiments/baseline/results`
 
 * Run non-random baseline for each data set:
 
-```python
+```shell
 python experiments/baseline/demos/ppdb_graph.py
 python experiments/baseline/demos/ngram_graph.py
 python experiments/baseline/demos/ppdb_ngram_graph.py
@@ -41,7 +41,7 @@ You may find the results at `adj-relation/experiments/baseline/results`
 
 * Run logistic regression for each data set:
 
-```python
+```shell
 python experiments/regression/demos/run_model_redo.py
 ```
 
@@ -50,7 +50,7 @@ You may find the results at `adj-relation/experiments/regression/results`
 
 * Run my replication of Mohit's MILP method:
 
-```python
+```shell
 python experiments/regression/demos/run_milp.py
 ```
 
