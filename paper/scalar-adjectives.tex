@@ -1,0 +1,85 @@
+%
+% File naaclhlt2016.tex
+% pdflatex scalar-adjectives.tex
+% bibtex scalar-adjectives.aux
+%
+
+\documentclass[11pt,letterpaper]{article}
+\usepackage{thesis}
+\usepackage{times}
+\usepackage{latexsym}
+\usepackage{bbm}
+\usepackage{amsfonts}
+\usepackage{amsthm}
+\usepackage{amsmath}
+\usepackage{mathtools, xparse}
+\usepackage[linesnumbered,ruled]{algorithm2e}
+\usepackage{pbox}
+\usepackage{booktabs}
+
+\newcommand\numberthis{\addtocounter{equation}{1}\tag{\theequation}}
+
+\newcommand{\G}{\pmb{G}}
+\newcommand{\V}{\pmb{V}}
+\newcommand{\E}{\pmb{E}}
+\newcommand{\Wa}{\pmb{W}}
+\newcommand{\tG}{\widetilde{\pmb{G}}}
+\newcommand{\tE}{\widetilde{\pmb{E}}}
+\newcommand{\tV}{\widetilde{\pmb{V}}}
+\newcommand{\B}{\pmb{B}}
+\newcommand{\W}{\pmb{W}}
+\newcommand{\N}{\mathcal{N}}
+\newcommand{\tgamma}{\widetilde{\gamma}}
+\newcommand{\tdelta}{\widetilde{\delta}}
+\newcommand{\norm}[1]{\left\lVert#1\right\rVert}
+\newcommand{\Ex}{\mathbb{E}}
+\newcommand{\Prob}{\pmb{Pr}}
+\newcommand{\I}{\mathbbm{1}}
+\newcommand{\sbeta}{\mathcal{\beta}}
+
+\DeclareMathOperator*{\argmin}{arg\,min}
+\DeclareMathOperator*{\argmax}{arg\,max}
+\theoremstyle{definition}
+\newtheorem{definition}{Definition}[section]
+\theoremstyle{remark}
+\newtheorem{remark}{Remark}[section]
+\theoremstyle{remark}
+
+\newcommand\BibTeX{B{\sc ib}\TeX}
+
+\title{Ranking Scalar Adjectives}
+
+\author{Xiao Ling\\
+  {\tt lingxiao@seas.upenn.edu}}
+\date{}
+
+\begin{document}
+
+% \maketitle
+
+\begin{abstract}
+	Cite document like this:\newcite{demelo:13}.
+\end{abstract}
+
+\input{intro.tex}
+
+\input{data.tex}
+
+\input{milp.tex}
+
+\input{formulation.tex}
+
+\input{baseline.tex}
+
+\input{regression.tex}
+
+\input{combine.tex}
+
+\input{ilp.tex}
+
+\input{ppr.tex}
+
+\bibliography{scalar-adjectives}
+\bibliographystyle{naaclhlt2016}\newpage
+
+\end{document}
