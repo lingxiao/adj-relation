@@ -1,5 +1,5 @@
 ############################################################
-# Module  : All System Paths
+# Module  : Application class
 # Date    : March 23rd, 2017
 # Author  : Xiao Ling
 ############################################################
