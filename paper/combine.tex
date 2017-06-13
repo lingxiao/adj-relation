@@ -133,9 +133,65 @@ On the other hand, we observe that although Bansal's method performs well on the
 \caption{\label{font-table}. The first two columns show results for the two best models combined with pointwise estimation baseline using Beta-Binomial model. The third column displays Mohit's MILP method using N-gram data only. The results shows that $l_1$-logistic regression outperformed elastic net regression on most data sets by a small (possibly insignificant) margin, otherwise they are equivalent. In particular, oberve how logistic regression performs just as well on Mohit's set as it does no the Turk set. Furthermore, both model outperform MILP by a non-trivial amount on all gold sets. Finally, note how well the MILP method performs on Mohit's gold cluster, versus how poorly it performs on other gold standards. The bottom two rows report results across all methods for the subsets of the gold clusters where there is some N-gram data. }
 \end{table}\newpage
 
-\subsection{Future Work}
+\subsection{Conclusion and Future Work}
 
-We will close this thesis by suggesting some direction for future work. 
+We will close this chapter by reiterating our assumption, and offer some possible avenues of exploration. First, we review the fundamental hypothesis underlying all methods we have seen so far: there is a positive relationship between how words are used on average in the context of intensifiers such as adverbs or N-gram patterns, and how an annotator ranks pairs of such words in isolation. The fact that all successful methods we have seen so far achieved close to or above $70\%$ pairwise accuracy confirms this hypothesis. However, we must caution those who wish to improve upon this results, inter-annotator accuracy on Mohit's set is $78\%$. In fact, many of the rankings are subjective and we do not believe it is meaningful to achieve, for example $90\%$, on the gold standards procured by Mohit and us. 
+
+In fact, consider this cluster: 
+
+\begin{itemize}
+\item interesting
+\item entertaining
+\item fascinating
+\item intriguing
+\item amusing
+\item exciting,
+\end{itemize}
+
+the gold set suggests
+	\[
+		\text{interesting} < \text{intriguing} < \text{amusing} = \text{entertaining} < \text{fascinating} = \text{exciting},
+	\]
+
+but an equally plausible ranking is:
+
+	\[
+		\text{interesting} < \text{amusing} < \text{entertaining} < \text{fascinating} < \text{intriguing} < \text{exciting}.
+	\]
+
+Penalized elastic net regression output:
+
+	\[
+		\text{interesting} < \text{entertaining} < \text{fascinating} < \text{intriguing} < \text{amusing} < \text{exciting}.
+	\]
+
+We leave it to the reader to judge which cluster makes the most sense, if any. This example suggests an immediate improvement upon our work: procure better clusters so the results are more meaningful. There are two ways to improve the quality of each cluster: prune the clusters for synonyms, and resist the temptation for large clusters. The first suggestion is self explanatory, since none of the models account for synonyms, clusters that contain words annotators would consider to be synonyms will unfairly depress the score. Eschewing large clusters is important because the larger the cluster, the more likely polysemy will 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
