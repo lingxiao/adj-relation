@@ -141,8 +141,8 @@ def read_gold(path):
 '''
 def write_gold(path, golds):
   with open(path, 'wb') as h:
-    for k,gold in golds.iteritems():
-      h.write('=== ' + str(k) + '\n')
+    for gold in golds:
+      h.write('=== foo, bar'  + '\n')
       for ws in gold:
         h.write(', '.join(ws) + '\n')
     h.write('=== END')

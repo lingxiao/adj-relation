@@ -1,0 +1,1032 @@
+bcs-has-ngram-data.txt
+2017-06-13 11:52:50.672425
+------------------------------------------------
+average pairwise : 56.0%
+average tau:  0.13
+average |tau|:1.0
+------------------------------------------------
+=== tau:
+-1.0
+
+=== pairwise accuracy:
+0.0
+
+=== gold: 
+['large']
+['larger']
+
+=== algo: 
+['larger']
+['large']
+
+('larger', 'large'):	0.0('large', 'larger'):	1.0
+------------------------------------------------
+=== tau:
+1.0
+
+=== pairwise accuracy:
+1.0
+
+=== gold: 
+['easy']
+['easier']
+
+=== algo: 
+['easy']
+['easier']
+
+('easier', 'easy'):	0.0('easy', 'easier'):	1.0
+------------------------------------------------
+=== tau:
+1.0
+
+=== pairwise accuracy:
+1.0
+
+=== gold: 
+['close']
+['closer']
+
+=== algo: 
+['close']
+['closer']
+
+('closer', 'close'):	0.0('close', 'closer'):	1.0
+------------------------------------------------
+=== tau:
+1.0
+
+=== pairwise accuracy:
+1.0
+
+=== gold: 
+['bright']
+['brighter']
+
+=== algo: 
+['bright']
+['brighter']
+
+('brighter', 'bright'):	0.0('bright', 'brighter'):	1.0
+------------------------------------------------
+=== tau:
+1.0
+
+=== pairwise accuracy:
+1.0
+
+=== gold: 
+['cool']
+['cooler']
+
+=== algo: 
+['cool']
+['cooler']
+
+('cool', 'cooler'):	1.0('cooler', 'cool'):	0.0
+------------------------------------------------
+=== tau:
+-1.0
+
+=== pairwise accuracy:
+0.0
+
+=== gold: 
+['slow']
+['slower']
+
+=== algo: 
+['slower']
+['slow']
+
+('slow', 'slower'):	1.0('slower', 'slow'):	0.0
+------------------------------------------------
+=== tau:
+1.0
+
+=== pairwise accuracy:
+1.0
+
+=== gold: 
+['good']
+['great']
+
+=== algo: 
+['good']
+['great']
+
+('good', 'great'):	1.0('great', 'good'):	0.0
+------------------------------------------------
+=== tau:
+1.0
+
+=== pairwise accuracy:
+1.0
+
+=== gold: 
+['long']
+['longer']
+
+=== algo: 
+['long']
+['longer']
+
+('longer', 'long'):	0.0('long', 'longer'):	1.0
+------------------------------------------------
+=== tau:
+-1.0
+
+=== pairwise accuracy:
+0.0
+
+=== gold: 
+['hot']
+['hotter']
+
+=== algo: 
+['hotter']
+['hot']
+
+('hotter', 'hot'):	0.0('hot', 'hotter'):	1.0
+------------------------------------------------
+=== tau:
+1.0
+
+=== pairwise accuracy:
+1.0
+
+=== gold: 
+['pretty']
+['prettier']
+
+=== algo: 
+['pretty']
+['prettier']
+
+('prettier', 'pretty'):	0.0('pretty', 'prettier'):	1.0
+------------------------------------------------
+=== tau:
+1.0
+
+=== pairwise accuracy:
+1.0
+
+=== gold: 
+['rich']
+['richer']
+
+=== algo: 
+['rich']
+['richer']
+
+('richer', 'rich'):	0.0('rich', 'richer'):	1.0
+------------------------------------------------
+=== tau:
+1.0
+
+=== pairwise accuracy:
+1.0
+
+=== gold: 
+['happy']
+['happier']
+
+=== algo: 
+['happy']
+['happier']
+
+('happy', 'happier'):	1.0('happier', 'happy'):	0.0
+------------------------------------------------
+=== tau:
+1.0
+
+=== pairwise accuracy:
+1.0
+
+=== gold: 
+['safe']
+['safer']
+
+=== algo: 
+['safe']
+['safer']
+
+('safe', 'safer'):	1.0('safer', 'safe'):	0.0
+------------------------------------------------
+=== tau:
+-1.0
+
+=== pairwise accuracy:
+0.0
+
+=== gold: 
+['heavy']
+['heavier']
+
+=== algo: 
+['heavier']
+['heavy']
+
+('heavier', 'heavy'):	0.0('heavy', 'heavier'):	1.0
+------------------------------------------------
+=== tau:
+1.0
+
+=== pairwise accuracy:
+1.0
+
+=== gold: 
+['weak']
+['weaker']
+
+=== algo: 
+['weak']
+['weaker']
+
+('weaker', 'weak'):	0.0('weak', 'weaker'):	1.0
+------------------------------------------------
+=== tau:
+1.0
+
+=== pairwise accuracy:
+1.0
+
+=== gold: 
+['far']
+['further']
+
+=== algo: 
+['far']
+['further']
+
+('far', 'further'):	1.0('further', 'far'):	-1.0
+------------------------------------------------
+=== tau:
+-1.0
+
+=== pairwise accuracy:
+0.0
+
+=== gold: 
+['strange']
+['stranger']
+
+=== algo: 
+['stranger']
+['strange']
+
+('stranger', 'strange'):	0.0('strange', 'stranger'):	1.0
+------------------------------------------------
+=== tau:
+1.0
+
+=== pairwise accuracy:
+1.0
+
+=== gold: 
+['far']
+['farther']
+
+=== algo: 
+['far']
+['farther']
+
+('far', 'farther'):	1.0('farther', 'far'):	-1.0
+------------------------------------------------
+=== tau:
+-1.0
+
+=== pairwise accuracy:
+0.0
+
+=== gold: 
+['old']
+['older']
+
+=== algo: 
+['older']
+['old']
+
+('older', 'old'):	0.0('old', 'older'):	1.0
+------------------------------------------------
+=== tau:
+-1.0
+
+=== pairwise accuracy:
+0.0
+
+=== gold: 
+['simple']
+['simpler']
+
+=== algo: 
+['simpler']
+['simple']
+
+('simpler', 'simple'):	0.0('simple', 'simpler'):	1.0
+------------------------------------------------
+=== tau:
+1.0
+
+=== pairwise accuracy:
+1.0
+
+=== gold: 
+['few']
+['fewer']
+
+=== algo: 
+['few']
+['fewer']
+
+('fewer', 'few'):	-1.0('few', 'fewer'):	1.0
+------------------------------------------------
+=== tau:
+1.0
+
+=== pairwise accuracy:
+1.0
+
+=== gold: 
+['low']
+['lower']
+
+=== algo: 
+['low']
+['lower']
+
+('lower', 'low'):	0.0('low', 'lower'):	1.0
+------------------------------------------------
+=== tau:
+1.0
+
+=== pairwise accuracy:
+1.0
+
+=== gold: 
+['nice']
+['nicer']
+
+=== algo: 
+['nice']
+['nicer']
+
+('nice', 'nicer'):	1.0('nicer', 'nice'):	0.0
+------------------------------------------------
+=== tau:
+1.0
+
+=== pairwise accuracy:
+1.0
+
+=== gold: 
+['cold']
+['colder']
+
+=== algo: 
+['cold']
+['colder']
+
+('colder', 'cold'):	0.0('cold', 'colder'):	1.0
+------------------------------------------------
+=== tau:
+-1.0
+
+=== pairwise accuracy:
+0.0
+
+=== gold: 
+['rare']
+['rarer']
+
+=== algo: 
+['rarer']
+['rare']
+
+('rarer', 'rare'):	0.0('rare', 'rarer'):	1.0
+------------------------------------------------
+=== tau:
+-1.0
+
+=== pairwise accuracy:
+0.0
+
+=== gold: 
+['much']
+['more']
+
+=== algo: 
+['more']
+['much']
+
+('much', 'more'):	1.0('more', 'much'):	0.0
+------------------------------------------------
+=== tau:
+1.0
+
+=== pairwise accuracy:
+1.0
+
+=== gold: 
+['fast']
+['faster']
+
+=== algo: 
+['fast']
+['faster']
+
+('faster', 'fast'):	0.0('fast', 'faster'):	1.0
+------------------------------------------------
+=== tau:
+1.0
+
+=== pairwise accuracy:
+1.0
+
+=== gold: 
+['deep']
+['deeper']
+
+=== algo: 
+['deep']
+['deeper']
+
+('deeper', 'deep'):	0.0('deep', 'deeper'):	1.0
+------------------------------------------------
+=== tau:
+-1.0
+
+=== pairwise accuracy:
+0.0
+
+=== gold: 
+['little']
+['less']
+
+=== algo: 
+['less']
+['little']
+
+('little', 'less'):	1.0('less', 'little'):	0.0
+------------------------------------------------
+=== tau:
+1.0
+
+=== pairwise accuracy:
+1.0
+
+=== gold: 
+['tough']
+['tougher']
+
+=== algo: 
+['tough']
+['tougher']
+
+('tougher', 'tough'):	-1.0('tough', 'tougher'):	1.0
+------------------------------------------------
+=== tau:
+1.0
+
+=== pairwise accuracy:
+1.0
+
+=== gold: 
+['quiet']
+['quieter']
+
+=== algo: 
+['quiet']
+['quieter']
+
+('quieter', 'quiet'):	0.0('quiet', 'quieter'):	1.0
+------------------------------------------------
+=== tau:
+-1.0
+
+=== pairwise accuracy:
+0.0
+
+=== gold: 
+['healthy']
+['healthier']
+
+=== algo: 
+['healthier']
+['healthy']
+
+('healthier', 'healthy'):	0.0('healthy', 'healthier'):	1.0
+------------------------------------------------
+=== tau:
+1.0
+
+=== pairwise accuracy:
+1.0
+
+=== gold: 
+['wide']
+['wider']
+
+=== algo: 
+['wide']
+['wider']
+
+('wider', 'wide'):	0.0('wide', 'wider'):	1.0
+------------------------------------------------
+=== tau:
+-1.0
+
+=== pairwise accuracy:
+0.0
+
+=== gold: 
+['busy']
+['busier']
+
+=== algo: 
+['busier']
+['busy']
+
+('busy', 'busier'):	1.0('busier', 'busy'):	0.0
+------------------------------------------------
+=== tau:
+1.0
+
+=== pairwise accuracy:
+1.0
+
+=== gold: 
+['short']
+['shorter']
+
+=== algo: 
+['short']
+['shorter']
+
+('short', 'shorter'):	1.0('shorter', 'short'):	0.0
+------------------------------------------------
+=== tau:
+-1.0
+
+=== pairwise accuracy:
+0.0
+
+=== gold: 
+['hard']
+['harder']
+
+=== algo: 
+['harder']
+['hard']
+
+('hard', 'harder'):	1.0('harder', 'hard'):	0.0
+------------------------------------------------
+=== tau:
+1.0
+
+=== pairwise accuracy:
+1.0
+
+=== gold: 
+['high']
+['higher']
+
+=== algo: 
+['high']
+['higher']
+
+('higher', 'high'):	-1.0('high', 'higher'):	1.0
+------------------------------------------------
+=== tau:
+-1.0
+
+=== pairwise accuracy:
+0.0
+
+=== gold: 
+['bad']
+['worse']
+
+=== algo: 
+['worse']
+['bad']
+
+('bad', 'worse'):	1.0('worse', 'bad'):	0.0
+------------------------------------------------
+=== tau:
+1.0
+
+=== pairwise accuracy:
+1.0
+
+=== gold: 
+['thin']
+['thinner']
+
+=== algo: 
+['thin']
+['thinner']
+
+('thinner', 'thin'):	0.0('thin', 'thinner'):	1.0
+------------------------------------------------
+=== tau:
+-1.0
+
+=== pairwise accuracy:
+0.0
+
+=== gold: 
+['quick']
+['quicker']
+
+=== algo: 
+['quicker']
+['quick']
+
+('quicker', 'quick'):	0.0('quick', 'quicker'):	1.0
+------------------------------------------------
+=== tau:
+-1.0
+
+=== pairwise accuracy:
+0.0
+
+=== gold: 
+['tall']
+['taller']
+
+=== algo: 
+['taller']
+['tall']
+
+('tall', 'taller'):	1.0('taller', 'tall'):	0.0
+------------------------------------------------
+=== tau:
+-1.0
+
+=== pairwise accuracy:
+0.0
+
+=== gold: 
+['true']
+['truer']
+
+=== algo: 
+['truer']
+['true']
+
+('truer', 'true'):	0.0('true', 'truer'):	1.0
+------------------------------------------------
+=== tau:
+-1.0
+
+=== pairwise accuracy:
+0.0
+
+=== gold: 
+['big']
+['bigger']
+
+=== algo: 
+['bigger']
+['big']
+
+('bigger', 'big'):	0.0('big', 'bigger'):	1.0
+------------------------------------------------
+=== tau:
+-1.0
+
+=== pairwise accuracy:
+0.0
+
+=== gold: 
+['clear']
+['clearer']
+
+=== algo: 
+['clearer']
+['clear']
+
+('clear', 'clearer'):	1.0('clearer', 'clear'):	0.0
+------------------------------------------------
+=== tau:
+1.0
+
+=== pairwise accuracy:
+1.0
+
+=== gold: 
+['young']
+['younger']
+
+=== algo: 
+['young']
+['younger']
+
+('younger', 'young'):	0.0('young', 'younger'):	1.0
+------------------------------------------------
+=== tau:
+1.0
+
+=== pairwise accuracy:
+1.0
+
+=== gold: 
+['smart']
+['smarter']
+
+=== algo: 
+['smart']
+['smarter']
+
+('smart', 'smarter'):	1.0('smarter', 'smart'):	0.0
+------------------------------------------------
+=== tau:
+-1.0
+
+=== pairwise accuracy:
+0.0
+
+=== gold: 
+['warm']
+['warmer']
+
+=== algo: 
+['warmer']
+['warm']
+
+('warm', 'warmer'):	1.0('warmer', 'warm'):	0.0
+------------------------------------------------
+=== tau:
+-1.0
+
+=== pairwise accuracy:
+0.0
+
+=== gold: 
+['poor']
+['poorer']
+
+=== algo: 
+['poorer']
+['poor']
+
+('poorer', 'poor'):	0.0('poor', 'poorer'):	1.0
+------------------------------------------------
+=== tau:
+-1.0
+
+=== pairwise accuracy:
+0.0
+
+=== gold: 
+['great']
+['greater']
+
+=== algo: 
+['greater']
+['great']
+
+('great', 'greater'):	1.0('greater', 'great'):	0.0
+------------------------------------------------
+=== tau:
+-1.0
+
+=== pairwise accuracy:
+0.0
+
+=== gold: 
+['strong']
+['stronger']
+
+=== algo: 
+['stronger']
+['strong']
+
+('strong', 'stronger'):	1.0('stronger', 'strong'):	0.0
+------------------------------------------------
+=== tau:
+-1.0
+
+=== pairwise accuracy:
+0.0
+
+=== gold: 
+['cheap']
+['cheaper']
+
+=== algo: 
+['cheaper']
+['cheap']
+
+('cheaper', 'cheap'):	0.0('cheap', 'cheaper'):	1.0
+------------------------------------------------
+=== tau:
+1.0
+
+=== pairwise accuracy:
+1.0
+
+=== gold: 
+['good']
+['better']
+
+=== algo: 
+['good']
+['better']
+
+('good', 'better'):	1.0('better', 'good'):	-1.0
+------------------------------------------------
+=== tau:
+1.0
+
+=== pairwise accuracy:
+1.0
+
+=== gold: 
+['small']
+['smaller']
+
+=== algo: 
+['small']
+['smaller']
+
+('smaller', 'small'):	-1.0('small', 'smaller'):	1.0
+------------------------------------------------
+=== tau:
+1.0
+
+=== pairwise accuracy:
+1.0
+
+=== gold: 
+['loud']
+['louder']
+
+=== algo: 
+['loud']
+['louder']
+
+('louder', 'loud'):	0.0('loud', 'louder'):	1.0
+------------------------------------------------
+=== tau:
+-1.0
+
+=== pairwise accuracy:
+0.0
+
+=== gold: 
+['great']
+['greatest']
+
+=== algo: 
+['greatest']
+['great']
+
+('great', 'greatest'):	1.0('greatest', 'great'):	0.0
+------------------------------------------------
+=== tau:
+1.0
+
+=== pairwise accuracy:
+1.0
+
+=== gold: 
+['much']
+['most']
+
+=== algo: 
+['much']
+['most']
+
+('much', 'most'):	1.0('most', 'much'):	0.0
+------------------------------------------------
+=== tau:
+-1.0
+
+=== pairwise accuracy:
+0.0
+
+=== gold: 
+['good']
+['excellent']
+
+=== algo: 
+['excellent']
+['good']
+
+('good', 'excellent'):	1.0('excellent', 'good'):	0.0
+------------------------------------------------
+=== tau:
+-1.0
+
+=== pairwise accuracy:
+0.0
+
+=== gold: 
+['many']
+['most']
+
+=== algo: 
+['most']
+['many']
+
+('many', 'most'):	1.0('most', 'many'):	0.0
+------------------------------------------------
+=== tau:
+1.0
+
+=== pairwise accuracy:
+1.0
+
+=== gold: 
+['bad']
+['worst']
+
+=== algo: 
+['bad']
+['worst']
+
+('worst', 'bad'):	-1.0('bad', 'worst'):	1.0
+------------------------------------------------
+=== tau:
+1.0
+
+=== pairwise accuracy:
+1.0
+
+=== gold: 
+['good']
+['best']
+
+=== algo: 
+['good']
+['best']
+
+('best', 'good'):	-1.0('good', 'best'):	1.0
+------------------------------------------------
+=== tau:
+1.0
+
+=== pairwise accuracy:
+1.0
+
+=== gold: 
+['fast']
+['fastest']
+
+=== algo: 
+['fast']
+['fastest']
+
+('fastest', 'fast'):	0.0('fast', 'fastest'):	1.0
+------------------------------------------------
+=== tau:
+-1.0
+
+=== pairwise accuracy:
+0.0
+
+=== gold: 
+['high']
+['highest']
+
+=== algo: 
+['highest']
+['high']
+
+('highest', 'high'):	0.0('high', 'highest'):	1.0
+------------------------------------------------
+=== tau:
+1.0
+
+=== pairwise accuracy:
+1.0
+
+=== gold: 
+['strong']
+['strongest']
+
+=== algo: 
+['strong']
+['strongest']
+
+('strong', 'strongest'):	1.0('strongest', 'strong'):	0.0
+------------------------------------------------
+=== tau:
+1.0
+
+=== pairwise accuracy:
+1.0
+
+=== gold: 
+['younger']
+['youngest']
+
+=== algo: 
+['younger']
+['youngest']
+
+('younger', 'youngest'):	1.0('youngest', 'younger'):	-1.0
+------------------------------------------------
+=== END
