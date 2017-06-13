@@ -15,8 +15,8 @@ from experiments.regression.utils import *
 '''
 	model and feature space representation
 '''
-winner = 'logistic-regression|ppdb-ngram|[nu^HT(s)`-`nu^HT(t)]|num_neigh=10|penalty=l1|C=0.4|num_tosses=1'
-path   = os.path.join(work_dir['models'], model_name + '/model')
+model_name = 'logistic-regression|ppdb-ngram|[nu^HT(s)`-`nu^HT(t)]|num_neigh=10|penalty=l1|C=0.4|num_tosses=1'
+path       = os.path.join(work_dir['models'], model_name + '/model')
 
 print('\n\t>> loading model from ' + model_name)
 with open(path,'rb') as h:
