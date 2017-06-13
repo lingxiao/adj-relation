@@ -99,6 +99,8 @@ In our setting, we fix the ratio of $\beta_1$ and $\beta_2$ so that the prior pr
 
 In informal terms, we are confident in the quality of direct comparisons, if they can be observed, and not very confident in the prediction of the model. Results for Beta-Binomal model is presented below.  All in all, the best model uses the beta-binomial model to combine direct observations with $l-1$-penalized logistic regression model, the regression model uses top the coin toss probability of 10 most connect neighbors as features. This model achieved $75\%$ pairwise accuracy on Mohit's data set and the Turk set, and a Kendall's $\tau$ value of $0.61$ and $0.62$. After adjusting for ties, the pairwise accuracy on Mohit's data set was $76\%$, which approaches the inter-annotator accuracy of $78\%$, while the pairwise accuracy on the Turks set was $82\%$ after adjusting for ties. 
 
+On the other hand, we observe that although Bansal's method performs well on the gold set they procured, it performs substantially worse across all other data sets: the $\tau$'s are close to zero and the pairwise accruacy is comparably low. Such surprisingly low results warrants further inspection. The low score actually hides two sources of error: error from absolute no data for any pair of adjectives, and error from wrong rankings when there is some data. In order to disentangle the two sources of error, we constructed a subset of the Turk set and the base-comparative-superlative sets where at least one pair of words from each cluster must have some data. Recall the original Turk set has $79$ clusters, the new set only has 23 clusters, that is to say less than $30\%$ of the Turk clusters appear in the N-gram data set. The story is similarly bleak for the base-comparative-superlative gold set: only 64 out of 238 clusters has any data at all, this is just $27\%$. After adjusting for data sparsity, we see that that Bansal's method achieves $65\%$ accuracy on the Turk set, which is more in line with how it performed on the Mohit gold set. On the base-comparative-superlative set, Mohit's method only achieved $56\%$ accuracy, 
+
 \begin{table}
 \small
 \centering
@@ -117,8 +119,8 @@ In informal terms, we are confident in the quality of direct comparisons, if the
 	% 
 	BCS          & 90.0\% & 0.81 & \pmb{93.0\%}  &  \pmb{0.85} & 18.0\%  &  0.02 \\
 	Turk         & 75.0\% & 0.62 & \pmb{75.0\%}  &  \pmb{0.62} & 25.0\%  &  0.13 \\
-	Turk no-tie  & 81.0\% & 0.63 & \pmb{82.0\%}  &  \pmb{0.63} & 19.0\%  &  0.12 \\
 	Mohit        & 74.0\% & 0.61 & \pmb{75.0\%}  &  \pmb{0.61} & 69.6\%  &  0.57 \\
+	Turk no-tie  & 81.0\% & 0.63 & \pmb{82.0\%}  &  \pmb{0.63} & 19.0\%  &  0.12 \\
 	Mohit no-tie & 76.0\% & 0.52 & \pmb{76.0\%}  &  \pmb{0.53} & 68.0\%  &  0.46 \\
 	% 
 	\hline
@@ -128,7 +130,7 @@ In informal terms, we are confident in the quality of direct comparisons, if the
 	% 
 	\hline
 \end{tabular}
-\caption{\label{font-table}. The first two columns show results for the two best models combined with pointwise estimation baseline using Beta-Binomial model. The third column displays Mohit's MILP method using N-gram data only. The results shows that $l_1$-logistic regression outperformed elastic net regression on most data sets by a small (possibly insignificant) margin, otherwise they are equivalent. In particular, oberve how logistic regression performs just as well on Mohit's set as it does no the Turk set. Furthermore, both model outperform MILP by a non-trivial amount on all gold sets. Finally, note how well the MILP method performs on Mohit's gold cluster, versus how poorly it performs on other gold standards.}
+\caption{\label{font-table}. The first two columns show results for the two best models combined with pointwise estimation baseline using Beta-Binomial model. The third column displays Mohit's MILP method using N-gram data only. The results shows that $l_1$-logistic regression outperformed elastic net regression on most data sets by a small (possibly insignificant) margin, otherwise they are equivalent. In particular, oberve how logistic regression performs just as well on Mohit's set as it does no the Turk set. Furthermore, both model outperform MILP by a non-trivial amount on all gold sets. Finally, note how well the MILP method performs on Mohit's gold cluster, versus how poorly it performs on other gold standards. The bottom two rows report results across all methods for the subsets of the gold clusters where there is some N-gram data. }
 \end{table}\newpage
 
 \subsection{Future Work}

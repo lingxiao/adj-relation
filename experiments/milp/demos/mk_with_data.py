@@ -42,15 +42,18 @@ def mk_gold_has_ngram_data(results_dir, gold_dir, name):
 
 		write_gold(out_path, has_data)
 
-		return out_path
+		return out_path, has_data
 
 	else:
 		raise IOError("\n\t>> cannot find test set [" + name + "] at "
 			          "directory:\n\t\t" + results_dir)
 
 
-turk_has_data = mk_gold_has_ngram_data(app.fetch('milp/results'), app.fetch('gold'), 'turk')
-bcs_has_data  = mk_gold_has_ngram_data(app.fetch('milp/results'), app.fetch('gold'), 'bcs')
+turk = golds['turk']
+bcs  = golds['bcs']
+
+_, turk_has_data = mk_gold_has_ngram_data(app.fetch('milp/results'), app.fetch('gold'), 'turk')
+_, bcs_has_data  = mk_gold_has_ngram_data(app.fetch('milp/results'), app.fetch('gold'), 'bcs')
 
 
 
