@@ -38,8 +38,8 @@ SAVE   = True
 '''
 results_dir     = work_dir['results']
 gold_root       = app.fetch('gold')
-turk_ngram_data = os.path.join(gold_root, 'turk-has-ngram-data.txt')
-bcs_ngram_data  = os.path.join(gold_root, 'bcs-has-ngram-data.txt' )
+turk_ngram_data = os.path.join(gold_root, 'turk-has-ngram-data-2.txt')
+bcs_ngram_data  = os.path.join(gold_root, 'bcs-has-ngram-data-2.txt' )
 
 turk = read_gold(turk_ngram_data)
 bcs  = read_gold(bcs_ngram_data)
