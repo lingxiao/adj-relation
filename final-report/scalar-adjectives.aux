@@ -1,0 +1,94 @@
+\relax 
+\citation{demelo:13}
+\@writefile{toc}{\contentsline {section}{\numberline {1}Introduction}{2}}
+\citation{sheinman2009adjscales}
+\citation{kim2013deriving}
+\citation{sheinman2009adjscales,schulam2010automatically,sheinman2012refining}
+\citation{demelo:13}
+\citation{demelo:13}
+\citation{sheinman2012refining}
+\citation{brants2006web}
+\@writefile{toc}{\contentsline {section}{\numberline {2}Data and Evaluation}{5}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.1}Extracting Intensity Patterns from Monolingual Data}{5}}
+\citation{demelo:13}
+\citation{sheinman2012refining}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.2}Extracting Adjectives associated with Intensity Patterns from Monolingual Data}{6}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.3}Extracting Bilingual-induced Data from PPDB}{6}}
+\citation{pavlick-EtAl:2015:ACL-IJCNLP3}
+\citation{Kruskal:58}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.4}Metrics}{7}}
+\@writefile{lot}{\contentsline {table}{\numberline {1}{\ignorespaces  Bansal and de Melo's linguistic patterns. Note the syntax (and,or) means either one of ``and" or ``or" are allowed to appear, or not appear at all. Similarly, (,) denotes a comman is allowed to appear. Additionally, articles such as ``a", ``an", and ``the" are may also appear before the wildcards. Wildcards matches any string.}}{10}}
+\newlabel{font-table}{{1}{10}}
+\@writefile{lot}{\contentsline {table}{\numberline {2}{\ignorespaces  The weak-strong patterns were found by Sheinman. We mined for the strong-weak patterns from google N-gram corpus.}}{10}}
+\newlabel{font-table}{{2}{10}}
+\citation{demelo:13}
+\@writefile{toc}{\contentsline {section}{\numberline {3}MILP Method using Monolingual Corpus}{11}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1}Problem Formulation}{11}}
+\@writefile{lot}{\contentsline {table}{\numberline {3}{\ignorespaces  Main results using Bansal's patterns. Note $\tau $ refers to kendall's $\tau $ with ties, while $\tau '$ referrs to the variant where ties are not considered.}}{14}}
+\newlabel{font-table}{{3}{14}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2}Results}{14}}
+\@writefile{toc}{\contentsline {section}{\numberline {4}Reformulation}{15}}
+\@writefile{toc}{\contentsline {section}{\numberline {5}Naive Baselines}{18}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.1}Introduction}{18}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.2}``Random" Baseline}{18}}
+\@writefile{lot}{\contentsline {table}{\numberline {4}{\ignorespaces  Random baseline. Note how poorly ``randomness" performed on the base-comparative-superlative baseline simply because the lists are sorted lexicographically, while the other sets perform close to random as expected. A high absolute $\tau $ is concerning because this suggests that enough of the cluster in the test sets are of length $2$ so as to make absolute $\tau $ look deceptively high. }}{19}}
+\newlabel{font-table}{{4}{19}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.3}Pointwise Estimation}{20}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.4}Pointwise Estimation Results}{20}}
+\@writefile{lot}{\contentsline {table}{\numberline {5}{\ignorespaces  Results across all datasets. Observe how N-gram graph only performed slightly better than the base line on base-comparative-superlative dataset. A similar story holds for the Turk set. However on Mohit's set we already manage to achieve a higher or comparable accuracy across all measures on the N-gram set than what Mohit did in his TACL paper. }}{27}}
+\newlabel{font-table}{{5}{27}}
+\@writefile{toc}{\contentsline {section}{\numberline {6}Regression}{28}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.1}Introduction}{28}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.2}Data Set}{28}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.3}Literature Review}{28}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.4}Problem Formulation}{30}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.5}Feature Representations}{31}}
+\@writefile{lot}{\contentsline {table}{\numberline {6}{\ignorespaces  The base-comparative-superlative pairs form the training set for each data set, the Turk pairs form the validations set, while Mohit's pairs will be the test set. Note in almost all cases but one, the test set is actually larger than than the training set. }}{34}}
+\newlabel{font-table}{{6}{34}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.6}Results}{34}}
+\@writefile{lot}{\contentsline {table}{\numberline {7}{\ignorespaces . Results for the two best models. Note the performance on the validation and test sets are comparable between the two models. It is also curious to note that the models performed better on the test set than the validation set. In fact, no model performed better than $70\%$ on the validation set. }}{35}}
+\newlabel{font-table}{{7}{35}}
+\@writefile{lot}{\contentsline {table}{\numberline {8}{\ignorespaces  Results across all datasets for pairs of gold standards for which direct comparison exists. Note how performance is higher when using N-grams alone across all gold standards. Note how PPDB data alone fails to do better than random on Mohit's clusters, even though direct direct comparisons exists for the pairs in these clusters. Suggesting the data that exists for Mohit's pairs are too noisy to give useful information. }}{36}}
+\newlabel{font-table}{{8}{36}}
+\@writefile{toc}{\contentsline {section}{\numberline {7}Logistic Regression Regression}{36}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.1}Introduction}{36}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.2}Remedial Solution}{36}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.3}Solution with Beta Prior}{37}}
+\@writefile{lot}{\contentsline {table}{\numberline {9}{\ignorespaces . Results for the two best models combined with pointwise estimation baseline in the remedial fashion. Note how two models performs comparable across all gold sets. In addition, not the gold clusters with no ties enjoyed a higher pairwise accuracy but suffer a lower $\tau $ value.}}{38}}
+\newlabel{font-table}{{9}{38}}
+\@writefile{lot}{\contentsline {table}{\numberline {10}{\ignorespaces . The first two columns show results for the two best models combined with pointwise estimation baseline using Beta-Binomial model. The third column displays Mohit's MILP method using N-gram data only. The results shows that $l_1$-logistic regression outperformed elastic net regression on most data sets by a small (possibly insignificant) margin, otherwise they are equivalent. In particular, oberve how logistic regression performs just as well on Mohit's set as it does no the Turk set. Furthermore, both model outperform MILP by a non-trivial amount on all gold sets. Finally, note how well the MILP method performs on Mohit's gold cluster, versus how poorly it performs on other gold standards. The bottom two rows report results across all methods for the subsets of the gold clusters where there is some N-gram data. }}{41}}
+\newlabel{font-table}{{10}{41}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.4}Conclusion and Future Work}{42}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.5}ILP over N-gram Patterns}{43}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.6}Problem Formulation}{43}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.7}Results}{48}}
+\@writefile{lot}{\contentsline {table}{\numberline {11}{\ignorespaces  The top row displays an example where Bansal's MILP fails to output the correct order (tau = $-0.18$) but Markov Mixed ILP output the correct order modulo ties (tau = $0.91$). The middle row is an example where Bansal' MILP correctly predicted the ranking despite sparse data, only six out of twenty pairs had any N-gram hits. Using Markov assumption the missing data was filled in, but at the cost accuracy. The bottom row shows an instance where both methods fail because there is overwhelming copora evidence that higher is more intense than soaring, revealing the limitations of the pattern-based approach.}}{49}}
+\newlabel{font-table}{{11}{49}}
+\@writefile{lot}{\contentsline {table}{\numberline {12}{\ignorespaces  Main results using Bansal's patterns. Note $\tau $ refers to kendall's $\tau $ with ties, while $\tau '$ referrs to the variant where ties are not considered.}}{51}}
+\newlabel{font-table}{{12}{51}}
+\@writefile{toc}{\contentsline {section}{\numberline {8}Ranking Using Network Centrality}{52}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {8.1}Introduction}{52}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {8.2}Motivation}{52}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {8.3}Notation}{53}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {8.4}PageRank}{54}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {8.5}Personalized PageRank}{54}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {8.6}Pairwise Comparison Using Centrality Measures}{55}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {8.7}Constructing the Transition Matrix}{56}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {8.8}Results}{57}}
+\@writefile{lot}{\contentsline {table}{\numberline {13}{\ignorespaces  Results across all datasets for uniform baseline coupled with reverse lexicographic sorting, reprinted here for convenience. }}{58}}
+\newlabel{font-table}{{13}{58}}
+\@writefile{lot}{\contentsline {table}{\numberline {14}{\ignorespaces  PageRank using graph constructed using out-edge expression. Note BCS performed best on PPDB, this is not surprising since this is how the PPDB dataset is generated. The Turk set performed best on the N-gram set, which is curious since the Turk set was constructed with respect to the PPDB adjective set. Finally we see Mohit's set performed best on the PPDB data set, but it appears as if there is a slight negative relationship between PageRank values and adjective strength on the N-gram set. }}{58}}
+\newlabel{font-table}{{14}{58}}
+\@writefile{lot}{\contentsline {table}{\numberline {15}{\ignorespaces  PageRank with out-neighbor construction. Note in theory this construction should be more susceptible to ``confusing" signals due to polysemy, however in practice it actually performs better on some annotated sets. }}{58}}
+\newlabel{font-table}{{15}{58}}
+\@writefile{lot}{\contentsline {table}{\numberline {16}{\ignorespaces  Personalized PageRank with out-edge construction. Note it performs significantly worse than PageRank. In particular there appears to be a negative relationship between PPR and adjective strength on some data sets, and positive relationship on others. Furthermore, observe the negative correlations appear on the N-gram dataset where we do not observe paths over several vertices, this makes PPR highly unreliable. It also appears for Mohit's set on the PPDB data, which was not constructed with Mohit's gold set in mind.}}{59}}
+\newlabel{font-table}{{16}{59}}
+\@writefile{lot}{\contentsline {table}{\numberline {17}{\ignorespaces  Personalized PageRank with out-neighbor construction. Note in general it is not worse than the out-edge construction. Finally, the negative correlation appear here in the same test set and gold set. }}{59}}
+\newlabel{font-table}{{17}{59}}
+\bibdata{scalar-adjectives}
+\bibcite{demelo:13}{\citename {de Melo and Bansal}2013}
+\bibcite{kim2013deriving}{\citename {Kim and de Marneffe}2013}
+\bibcite{schulam2010automatically}{\citename {Schulam and Fellbaum}2010}
+\bibcite{sheinman2009adjscales}{\citename {Sheinman and Tokunaga}2009}
+\bibcite{sheinman2012refining}{\citename {Sheinman \bgroup et al.\egroup }2012}
+\bibstyle{naaclhlt2016}
