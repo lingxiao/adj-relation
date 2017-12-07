@@ -25,7 +25,9 @@ text {
   overflow: hidden;
     width:100%;
     height:100%;
-    background-color: #47D2FF;
+    /*background-color: #47D2FF;*/
+    /*background-color: #D23838;*/
+    /*background-color: black;*/
 }
 
 .overlay {

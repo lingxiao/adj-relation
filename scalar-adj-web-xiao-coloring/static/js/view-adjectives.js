@@ -56,8 +56,9 @@ function draw() {
   var spaceId = "#graphSpace"
   // Compute the distinct nodes from the links.
   links.forEach(function(link) {
-    var sColor = "#2F4F4F";
-    var tColor = "#2F4F4F";
+ 
+    // var sColor = "#2F4F4F";
+    // var tColor = "#2F4F4F";
 
     link.source = nodes[link.source] || (nodes[link.source] = {name: link.source, color: sColor});
     link.target = nodes[link.target] || (nodes[link.target] = {name: link.target, color: tColor});
