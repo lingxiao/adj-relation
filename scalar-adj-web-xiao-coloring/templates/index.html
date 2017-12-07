@@ -1,0 +1,43 @@
+{% extends "base.html" %}
+
+{% block title %}Scalar Adjectives{% endblock %}
+
+{% block content %}
+<div class="jumbotron">
+	<h1>Scalar Adjectives</h1>
+
+    <p>Veronica Wharton, Ellie Pavlick, Chris Callison-Burch</p>
+
+    <p>University of Pennsylvania</p>
+
+    <h2>Graph statistics</h2>
+
+    <ul>
+        <li>
+            <b>
+                Number of vertices:
+            </b>
+            {{ num_vertices }}
+        </li>
+        <li>
+            <b>
+                Number of edges:
+            </b>
+            {{ num_edges }}
+        </li>
+        <li>
+            <b>
+                Number of vertex pairs:
+            </b>
+            {{ num_vertex_pairs }}
+        </li>
+        <li>
+            <b>
+                Number of unique adverbs:
+            </b>
+            {{ num_adverbs }}
+        </li>
+    </ul>
+
+</div>
+{% endblock %}
