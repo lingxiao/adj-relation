@@ -1,0 +1,23 @@
+<nav class="navbar navbar-default">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <a class="navbar-brand" href="/">Scalar Adjectives</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+            <ul class="nav navbar-nav">
+                <li{% if active == "adjectives" %} class="active" {% endif %}>
+                    <a href={{url_for('choose_adjectives') }}>View Scalar Adjectives</a>
+                </li>
+                <li{% if active == "adjectives_subgraphs" %} class="active" {% endif %}>
+                    <a href={{url_for('choose_adjective_subgraph')}}>View Scalar Adjective Subgraphs</a>
+                </li>
+            </ul>
+
+        </div>
+
+      </div>
+</nav>
