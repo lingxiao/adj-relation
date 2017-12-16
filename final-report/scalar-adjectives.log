@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  21 SEP 2017 12:15
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  7 DEC 2017 11:22
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -364,6 +364,21 @@ Package: booktabs 2016/04/27 v1.618033 publication quality tables
 
 LaTeX Warning: Label `font-table' multiply defined.
 
+
+LaTeX Warning: Label `font-table' multiply defined.
+
+
+LaTeX Warning: Label `font-table' multiply defined.
+
+
+LaTeX Warning: Label `font-table' multiply defined.
+
+
+LaTeX Warning: Label `font-table' multiply defined.
+
+
+LaTeX Warning: Label `font-table' multiply defined.
+
 )
 \openout1 = `scalar-adjectives.aux'.
 
@@ -490,29 +505,59 @@ LaTeX Font Info:    Try loading font information for OT1+pcr on input line 58.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
-) (./abstract.tex
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1.
-[1
-
-{/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}])
-(./intro.tex
+) (./intro.tex
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1.
- [2]
+
+[1
+
+{/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 15.
+
+
+LaTeX Warning: Citation `sheinman2009adjscales' on page 2 undefined on input li
+ne 15.
+
+
+LaTeX Warning: Citation `kim2013deriving' on page 2 undefined on input line 17.
+
+
+[2]
+
+LaTeX Warning: Citation `sheinman2009adjscales' on page 3 undefined on input li
+ne 19.
+
+
+LaTeX Warning: Citation `schulam2010automatically' on page 3 undefined on input
+ line 19.
+
+
+LaTeX Warning: Citation `sheinman2012refining' on page 3 undefined on input lin
+e 19.
+
+
 Overfull \hbox (17.5515pt too wide) in paragraph at lines 19--20
 \OT1/ptm/m/n/10.95 proaches de-cides this re-la-tion-ship us-ing their joint co
 -occurence around pre-determined
  []
 
-[3] [4]) (./data.tex
+
+LaTeX Warning: Citation `demelo:13' on page 3 undefined on input line 21.
+
+[3]) (./data.tex
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 5.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 7.
 
 
-LaTeX Warning: Citation `brants2006web' on page 5 undefined on input line 7.
+LaTeX Warning: Citation `demelo:13' on page 4 undefined on input line 7.
+
+
+LaTeX Warning: Citation `sheinman2012refining' on page 4 undefined on input lin
+e 7.
+
+
+LaTeX Warning: Citation `brants2006web' on page 4 undefined on input line 7.
 
 
 Overfull \hbox (12.81282pt too wide) in paragraph at lines 9--9
@@ -520,43 +565,58 @@ Overfull \hbox (12.81282pt too wide) in paragraph at lines 9--9
 rns from Mono-
  []
 
-[5] [6]
+[4]
 
-LaTeX Warning: Citation `pavlick-EtAl:2015:ACL-IJCNLP3' on page 7 undefined on 
+LaTeX Warning: Citation `demelo:13' on page 5 undefined on input line 17.
+
+
+LaTeX Warning: Citation `sheinman2012refining' on page 5 undefined on input lin
+e 17.
+
+
+LaTeX Warning: Citation `pavlick-EtAl:2015:ACL-IJCNLP3' on page 5 undefined on 
 input line 19.
 
+[5]
 LaTeX Font Info:    Try loading font information for U+bbm on input line 36.
-(/usr/local/texlive/2016/texmf-dist/tex/latex/bbm-macros/ubbm.fd
+ (/usr/local/texlive/2016/texmf-dist/tex/latex/bbm-macros/ubbm.fd
 File: ubbm.fd 1999/03/15 V 1.2 Font definition for bbm font - TH
 )
 
-LaTeX Warning: Citation `Kruskal:58' on page 7 undefined on input line 39.
+LaTeX Warning: Citation `Kruskal:58' on page 6 undefined on input line 39.
 
-[7]
+[6]
 LaTeX Font Info:    Try loading font information for OMS+ptm on input line 49.
  (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/omsptm.fd
 File: omsptm.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10.95> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 49.
- [8]
-[9] [10]) (./milp.tex [11] [12] [13]
+ [7]
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 86.
+
+[8] [9]) (./milp.tex
+
+LaTeX Warning: Citation `demelo:13' on page 10 undefined on input line 3.
+
+[10] [11] [12]
 Overfull \hbox (61.73419pt too wide) in paragraph at lines 64--83
  [][] 
  []
 
-[14]) (./formulation.tex
+[13]) (./formulation.tex
 Overfull \hbox (22.30623pt too wide) in paragraph at lines 14--14
 [] 
  []
 
-[15] [16] [17]) (./baseline.tex [18] [19] [20] [21] [22] [23] [24] [25]
-[26]
+[14] [15] [16]) (./baseline.tex [17] [18] [19] [20] [21] [22] [23] [24]
+[25]
 Overfull \hbox (80.95592pt too wide) in paragraph at lines 145--166
  [][] 
  []
 
-[27]) (./regression.tex [28] [29] [30]
+[26]) (./regression.tex [27] [28] [29]
 Overfull \hbox (42.99635pt too wide) detected at line 115
 \OML/cmm/m/it/10.95 ^^^\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.95 s\OT1/cmr/m/n/10
 .95 )[] = []
@@ -568,18 +628,18 @@ Overfull \hbox (47.04417pt too wide) detected at line 126
 .95 )[] = []
  []
 
-[31] [32] [33] [34] [35]) (./combine.tex [36] [37] [38] [39] [40] [41] [42])
-(./ilp.tex [43] [44]
+[30] [31] [32] [33] [34]) (./combine.tex [35] [36] [37] [38] [39] [40] [41])
+(./ilp.tex [42] [43]
 Underfull \hbox (badness 10000) in paragraph at lines 46--47
 
  []
 
-[45]
+[44]
 Underfull \hbox (badness 10000) in paragraph at lines 48--51
 
  []
 
-[46] [47]
+[45] [46]
 Underfull \hbox (badness 10000) in paragraph at lines 150--150
 
  []
@@ -589,19 +649,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 151--151
 
  []
 
-[48] [49]
+[47] [48]
 Overfull \hbox (37.29434pt too wide) in paragraph at lines 165--185
  [][] 
  []
 
-[50] [51]) (./ppr.tex [52]
+[49] [50]) (./ppr.tex [51]
 Overfull \hbox (29.54642pt too wide) in paragraph at lines 51--52
 \OT1/ptm/m/n/10.95 rang-ing over dis-tri-bu-tions over ver-tices in $[]$, then 
 the or-dered se-quence $\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.95 X[]; X[]; [] ; 
 X[]\OT1/cmr/m/n/10.95 )$
  []
 
-[53] [54] [55] [56] [57] [58] [59]) (./scalar-adjectives.bbl) [60]
+[52] [53] [54] [55] [56] [57] [58]) (./scalar-adjectives.bbl) [59]
 (./scalar-adjectives.aux)
 
 LaTeX Warning: There were multiply-defined labels.
@@ -612,9 +672,9 @@ LaTeX Warning: There were multiply-defined labels.
 ### simple group (level 1) entered at line 1061 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 11109 strings out of 493014
- 203894 string characters out of 6133351
- 251882 words of memory out of 5000000
+ 11107 strings out of 493014
+ 203868 string characters out of 6133351
+ 251743 words of memory out of 5000000
  14488 multiletter control sequences out of 15000+600000
  31485 words of font info for 88 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -639,10 +699,10 @@ live/2016/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local
 /2016/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2016/texm
 f-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2016/texmf-dist/fon
 ts/type1/urw/times/utmri8a.pfb>
-Output written on scalar-adjectives.pdf (60 pages, 307995 bytes).
+Output written on scalar-adjectives.pdf (59 pages, 306864 bytes).
 PDF statistics:
- 276 PDF objects out of 1000 (max. 8388607)
- 193 compressed objects within 2 object streams
+ 273 PDF objects out of 1000 (max. 8388607)
+ 191 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
